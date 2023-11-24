@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/codes/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/codes/code.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
+    <title>WPBrigade</title>
+</head>
+
+<body>
+    <div class="mian-body-wrapper">
+        <div class="new-updates display-flex-row" id="newupdates">
+            <p>
+                LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / <a href="#" class="green-text">WATCH NOW</a>
+            </p>
+            <button class="green-cancel-button" onclick="HideUpdates()">
+                <img src="/assets/x-mark.png" alt="">
+            </button>
+        </div>
+        <div class="logo-holder display-flex-row">
+            <p class="x-logo">
+                <strong>
+                    <a href="#" class="no-decoration">
+                        adidas
+                    </a>
+                </strong>
+            </p>
+            <button class="xx-button green-layer">
+                <strong>
+                    <p class="no-skew">
+                        MEMBERSHIP
+                    </p>
+                </strong>
+            </button>
+            <button class="xx-button mid-green-layer">
+                <strong>
+                    <p class="no-skew">
+                        ACCOUNTS
+                    </p>
+                </strong>
+            </button>
+            <button class="burger-icon" onclick="dispnavBar()">
+                <img src="/assets/burger-icon.png" alt="">
+            </button>
+        </div>
+        <div class="mobile-membersip-button-holder display-flex-row">
+            <button class="mobile-button green-layer">
+                <strong>
+                    <p class="">
+                        MEMBERSHIP
+                    </p>
+                </strong>
+            </button>
+            <button class="mid-green-layer mobile-button">
+                <strong>
+                    <p class="">
+                        ACCOUNTS
+                    </p>
+                </strong>
+            </button>
+        </div>
+        <div class="mobile-nav-bar mid-green-layer" id="mobileNavBar">
+            <div class="search-holder display-flex-row ">
+                <form>
+                    <input type="text" placeholder="SEARCH" required>
+                    <input type="submit" value="">
+                </form>
+
+            </div>
+
+            <a href="#" class="nav-button no-decoration skew active">
+                <strong>
+                    <p class="no-skew nav-text ">
+                        OUR TRACKS
+                    </p>
+                </strong>
+            </a>
+            <a href="#" class="nav-button no-decoration skew">
+                <strong>
+                    <p class="no-skew nav-text">
+                        FIND EVENTS
+                    </p>
+                </strong>
+            </a>
+            <a href="#" class="nav-button no-decoration skew">
+                <strong>
+                    <p class="no-skew nav-text">
+                        TRACK MAP
+                    </p>
+                </strong>
+            </a>
+            <a href="#" class="nav-button no-decoration skew">
+                <strong>
+                    <p class="no-skew nav-text">
+                        SHOP
+                    </p>
+                </strong>
+            </a>
+            <a href="#" class="nav-button no-decoration skew">
+                <strong>
+                    <p class="no-skew nav-text">
+                        ABOUT US
+                    </p>
+                </strong>
+            </a>
+
+        </div>
+    </div>
+    <div class="nav-bar display-flex-row mid-green-layer">
+        <a href="#" class="nav-button no-decoration skew active">
+            <strong>
+                <p class="no-skew nav-text ">
+                    OUR TRACKS
+                </p>
+            </strong>
+        </a>
+        <a href="#" class="nav-button no-decoration skew">
+            <strong>
+                <p class="no-skew nav-text">
+                    FIND EVENTS
+                </p>
+            </strong>
+        </a>
+        <a href="#" class="nav-button no-decoration skew">
+            <strong>
+                <p class="no-skew nav-text">
+                    TRACK MAP
+                </p>
+            </strong>
+        </a>
+        <a href="#" class="nav-button no-decoration skew">
+            <strong>
+                <p class="no-skew nav-text">
+                    SHOP
+                </p>
+            </strong>
+        </a>
+        <a href="#" class="nav-button no-decoration skew">
+            <strong>
+                <p class="no-skew nav-text">
+                    ABOUT US
+                </p>
+            </strong>
+        </a>
+        <div class="search-holder display-flex-row">
+            <form action="">
+                <input type="text" placeholder="SEARCH" required>
+                <input type="submit" value="">
+            </form>
+
+        </div>
+    </div>
+    <div class="page-name-wrapper display-flex-row">
+        <div class="page-name-holder">
+            <strong>
+                <p class="xx-text no-skew">
+                    HOME PAGE
+                </p>
+            </strong>
+        </div>
+        <div class="brand-name-holder display-flex-col ">
+            <strong>
+                <p class="no-skew">
+                    PARTNERSHIP BY
+                </p>
+            </strong>
+            <img src="/assets/reebok-logo.png" alt="" class="no-skew">
+        </div>
+    </div>
+    <div class="hero-container display-flex-row" id="hero-container">
+        <button class="hero-container-button " onclick="preSlide()">
+            <img src="/assets/hero-slider-leftt-arrow.png" alt="">
+        </button>
+        <div class="hidden-area">
+            <div class="hero-container-focused " id="container1">
+
+                <div class="hero-container-body-top display-flex-row " id="slider1">
+                    <div class="mid-with-container display-flex-col slider">
+                        <h1>
+                            GET READY for New Adidas bands
+                        </h1>
+                        <p>
+                            Adidas tracks all begin with a starting gate and end with a finish
+                            line, but everything in between varies from track to track. Because
+                            no wo tracks are alike, this action sport keep you on your toes
+                            whenever you are racing.
+                        </p>
+                    </div>
+                    <div class="x-mid-with-container display-flex-col">
+                        <button class="play-icon display-flex-col"  data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/MMFqJFqdSJg" href="javascript:;">
+                            <img src="/assets/play-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-container-body-bottom display-flex-row ">
+                    <a href="#slider1">
+                        <div class="slider-boxes boxes1 active-slider"></div>
+                    </a>
+                    <a href="#slider2">
+                        <div class="slider-boxes boxes2"></div>
+                    </a>
+                    <a href="#slider3">
+                        <div class="slider-boxes boxes3"></div>
+                    </a>
+                    <a href="#slider4">
+                        <div class="slider-boxes boxes4"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-container-focused " id="container2">
+
+                <div class="hero-container-body-top display-flex-row " id="slider2">
+                    <div class="mid-with-container display-flex-col">
+                        <h1>
+                            GET READY for New Adidas bands
+                        </h1>
+                        <p>
+                            Adidas tracks all begin with a starting gate and end with a finish
+                            line, but everything in between varies from track to track. Because
+                            no wo tracks are alike, this action sport keep you on your toes
+                            whenever you are racing.
+                        </p>
+                    </div>
+                    <div class="x-mid-with-container display-flex-col">
+                        <button class="play-icon display-flex-col"   data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/MMFqJFqdSJg" href="javascript:;">
+                            <img src="/assets/play-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-container-body-bottom display-flex-row ">
+                    <a href="#slider1">
+                        <div class="slider-boxes boxes1 "></div>
+                    </a>
+                    <a href="#slider2">
+                        <div class="slider-boxes boxes2 active-slider"></div>
+                    </a>
+                    <a href="#slider3">
+                        <div class="slider-boxes boxes3"></div>
+                    </a>
+                    <a href="#slider4">
+                        <div class="slider-boxes boxes4"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-container-focused " id="container3">
+
+                <div class="hero-container-body-top display-flex-row " id="slider3">
+                    <div class="mid-with-container display-flex-col">
+                        <h1>
+                            GET READY for New Adidas bands
+                        </h1>
+                        <p>
+                            Adidas tracks all begin with a starting gate and end with a finish
+                            line, but everything in between varies from track to track. Because
+                            no wo tracks are alike, this action sport keep you on your toes
+                            whenever you are racing.
+                        </p>
+                    </div>
+                    <div class="x-mid-with-container display-flex-col">
+                        <button class="play-icon display-flex-col"   data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/MMFqJFqdSJg" href="javascript:;"">
+                            <img src="/assets/play-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-container-body-bottom display-flex-row ">
+                    <a href="#slider1">
+                        <div class="slider-boxes boxes1 "></div>
+                    </a>
+                    <a href="#slider2">
+                        <div class="slider-boxes boxes2"></div>
+                    </a>
+                    <a href="#slider3">
+                        <div class="slider-boxes boxes3 active-slider"></div>
+                    </a>
+                    <a href="#slider4">
+                        <div class="slider-boxes boxes4"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-container-focused " id="container4">
+
+                <div class="hero-container-body-top display-flex-row " id="slider4">
+                    <div class="mid-with-container display-flex-col">
+                        <h1>
+                            GET READY for New Adidas bands
+                        </h1>
+                        <p>
+                            Adidas tracks all begin with a starting gate and end with a finish
+                            line, but everything in between varies from track to track. Because
+                            no wo tracks are alike, this action sport keep you on your toes
+                            whenever you are racing.
+                        </p>
+                    </div>
+                    <div class="x-mid-with-container display-flex-col">
+                        <button class="play-icon display-flex-col"  data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/MMFqJFqdSJg" href="javascript:;"">
+                            <img src="/assets/play-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero-container-body-bottom display-flex-row ">
+                    <a href="#slider1">
+                        <div class="slider-boxes boxes1 "></div>
+                    </a>
+                    <a href="#slider2">
+                        <div class="slider-boxes boxes2"></div>
+                    </a>
+                    <a href="#slider3">
+                        <div class="slider-boxes boxes3"></div>
+                    </a>
+                    <a href="#slider4">
+                        <div class="slider-boxes boxes4 active-slider"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="hero-container-button" onclick="nextSlide()">
+            <img src="/assets/hero-slider-right-arrow.png" alt="">
+        </button>
+    </div>
+    </div>
+    <div class="blog-content display-flex-row">
+        <div class="blog-body">
+            <div class="blod-slider display-flex-col">
+                <div class="blog-slider-top display-flex-row">
+                    <button class="blog-container-button" onclick="blogpreSlide()">
+                        <img src="/assets/hero-slider-leftt-arrow.png" alt="">
+                    </button>
+                    <div class="blog-card-holder display-flex-row">
+                        <div class="blog-card display-flex-col" id="blogcounter1">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter2">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter3">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter4">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter5">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter6">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter7">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                        <div class="blog-card display-flex-col" id="blogcounter8">
+                            <img src="/assets/thubnail-slider-img.png" alt="">
+                        </div>
+                    </div>
+                    <button class="blog-container-button" onclick="blognextSlide()">
+                        <img src="/assets/hero-slider-right-arrow.png" alt="">
+                    </button>
+                </div>
+                <div class="hero-container-body-bottom display-flex-row">
+                    <a href="#blogcounter1">
+                        <div class="slider-boxes active-slider boxes1" id="boxes1"></div>
+                    </a>
+                    <a href="#blogcounter4">
+                        <div class="slider-boxes boxes2" id="boxes2"></div>
+                    </a>
+                    <a href="#blogcounter8">
+                        <div class="slider-boxes boxes3" id="boxes3"></div>
+                    </a>
+                    <a href="#blogcounter1">
+                        <div class="slider-boxes boxes4" id="boxes4"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="awards-holder">
+                <div class="awards-card">
+                    <div class="award-image-holder"></div>
+                    <div class="award-text-holder">
+                        <p>
+                            <strong>
+                                2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                            </strong>
+                        </p>
+                        <p>
+                            Membership has its perks. Joining ADIDAS means you can race at
+                            your local tracks
+                        </p>
+                    </div>
+                    <div class="read-more display-flex-col">
+                        <button>
+                            <strong>
+                                READ MORE
+                            </strong>
+                        </button>
+                    </div>
+                </div>
+                <div class="awards-card">
+                    <div class="award-image-holder"></div>
+                    <div class="award-text-holder">
+                        <p>
+                            <strong>
+                                2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                            </strong>
+                        </p>
+                        <p>
+                            Membership has its perks. Joining ADIDAS means you can race at
+                            your local tracks
+                        </p>
+                    </div>
+                    <div class="read-more display-flex-col">
+                        <button>
+                            <strong>
+                                READ MORE
+                            </strong>
+                        </button>
+                    </div>
+                </div>
+                <div class="awards-card">
+                    <div class="award-image-holder"></div>
+                    <div class="award-text-holder">
+                        <p>
+                            <strong>
+                                2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                            </strong>
+                        </p>
+                        <p>
+                            Membership has its perks. Joining ADIDAS means you can race at
+                            your local tracks
+                        </p>
+                    </div>
+                    <div class="read-more display-flex-col">
+                        <button>
+                            <strong>
+                                READ MORE
+                            </strong>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="half-height-div display-flex-row">
+                <div class="x-image-background skew"></div>
+                <div class="x-text-holder skew display-flex-col">
+                    <p class="no-skew">
+                        <strong>
+                            2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                        </strong>
+                    </p>
+                    <span class="normal-text no-skew">
+                        Membership has its perks. Joining ADIDAS means you can race at
+                        your local tracks
+                    </span>
+                </div>
+            </div>
+            <div class="half-height-div">
+
+                <div class="xx-text-holder new-skew display-flex-col">
+                    <p class="x-no-skew">
+                        <strong>
+                            2019 NATIONAL CHAMPIONS CROWNED AT Reebok
+                        </strong>
+                    </p>
+                    <span class="normal-text x-no-skew">
+                        Membership has its perks. Joining ADIDAS means you can race at
+                        your local tracks
+                    </span>
+                </div>
+                <div class="xx-image-background display-flex-col">
+                    <img src="/assets/zig-zag-img-2.png" alt="" class="new-skew">
+                </div>
+            </div>
+        </div>
+        <div class="events-holder">
+            <h1>
+                EVENTS
+            </h1>
+            <div class="shows-holder display-flex-col">
+                <div class="show-list display-flex-row">
+                    <div class="event-number display-flex-col">
+                        <p>
+                            1
+                        </p>
+                    </div>
+                    <div class="event-details ">
+                        <p>
+                            <u><a href="#" class="no-decoration">SHOW IN USA</a></u>
+                        </p>
+
+                        <span>
+                            USA
+                        </span>
+                    </div>
+                </div>
+                <div class="show-list display-flex-row">
+                    <div class="event-number display-flex-col">
+                        <p>
+                            2
+                        </p>
+                    </div>
+                    <div class="event-details ">
+                        <p>
+                            <u><a href="" class="no-decoration">Adidas show IN USA</a></u>
+                        </p>
+
+                        <span>
+                            USA
+                        </span>
+                    </div>
+                </div>
+                <div class="show-list display-flex-row">
+                    <div class="event-number display-flex-col">
+                        <p>
+                            3
+                        </p>
+                    </div>
+                    <div class="event-details ">
+                        <p>
+                            <u><a href="" class="no-decoration">Adidas show</a></u>
+                        </p>
+
+                        <span>
+                            USA
+                        </span>
+                    </div>
+                </div>
+                <div class="show-list display-flex-row">
+                    <div class="event-number display-flex-col">
+                        <p>
+                            4
+                        </p>
+                    </div>
+                    <div class="event-details ">
+                        <p>
+                            <u><a href="" class="no-decoration">Adidas in USA</a></u>
+                        </p>
+
+                        <span>
+                            USA
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="contact-us-conainer display-flex-col">
+        <p>
+            <strong>
+                GET IN TOUCH WITH US
+            </strong>
+        </p>
+        <form class="contact-form display-flex-col">
+            <div class="name-email-holder display-flex-row">
+                <label for="name" class="contact-form-lable">
+                    <strong>
+                        NAME
+                    </strong> <br>
+                    <input type="text" placeholder="enter name" class="contact-input-box" required>
+                </label>
+                <label for="email" class="contact-form-lable">
+                    <strong>
+                        EMAIL
+                    </strong> <br>
+                    <input type="email" placeholder="enter email" class="contact-input-box" required>
+                </label>
+            </div>
+            <div class="name-email-holder display-flex-row">
+                <label for="name" class="contact-form-lable">
+                    <strong>
+                        COUNTRY
+                    </strong> <br>
+                    <select class="contact-input-box" required>
+                        <option value="">USA</option>
+                        <option value="">UAE</option>
+                        <option value="">AUS</option>
+                    </select>
+                </label>
+                <label for="email" class="contact-form-lable">
+                    <strong>
+                        STATE
+                    </strong> <br>
+                    <select class="contact-input-box" required>
+                        <option value="">USA</option>
+                        <option value="">UAE</option>
+                        <option value="">AUS</option>
+                    </select>
+                </label>
+                <label for="email" class="contact-form-lable gender-mobile">
+                    <strong>
+                        Gender
+                    </strong> <br>
+                    <select class="contact-input-box" required>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div class="name-email-holder x-name-email-holder gender">
+                <label for="name" class="contact-form-lable ">
+                    <strong>
+                        GENDER
+                    </strong> <br>
+
+                    <label for="" class="radio-lable">
+                        <input type="radio" name="gender" id="" value="male">
+                        MALE
+                    </label>
+                    <label for="" class="radio-lable">
+                        <input type="radio" name="gender" id="" value="female">
+                        FEMALE
+                    </label>
+                    <label for="" class="radio-lable">
+                        <input type="radio" name="gender" id="" value="other">
+                        OTHER
+                    </label>
+
+                </label>
+            </div>
+            <label for="" class="contact-form-lable">
+                Message <br>
+                <textarea name="" required id="" cols="80" rows="10" class="contact-form-richtext"
+                    placeholder="Message"></textarea>
+            </label>
+            <input type="submit" value="SUBMIT" class="contact-form-submit">
+        </form>
+    </div>
+    <div class="footer display-flex-col">
+        <div class="pages display-flex-row">
+            <a href="#">
+                <Strong>
+                    OUR TRACKS
+                </Strong>
+            </a>
+            <span>
+                <strong>
+                    /
+                </strong>
+            </span>
+            <a href="#">
+                <Strong>
+                    FIND EVENTS
+                </Strong>
+            </a>
+            <span>
+                <strong>
+                    /
+                </strong>
+            </span>
+            <a href="#">
+                <Strong>
+                    TRACK MAP
+                </Strong>
+            </a>
+            <span>
+                <strong>
+                    /
+                </strong>
+            </span>
+            <a href="#">
+                <Strong>
+                    SHOP
+                </Strong>
+            </a>
+            <span>
+                <strong>
+                    /
+                </strong>
+            </span>
+            <a href="#">
+                <Strong>
+                    ABOUT US
+                </Strong>
+            </a>
+        </div>
+        <div class="pages social-icons display-flex-row">
+            <a href="">
+                <img src="/assets/facebook-icon.png" alt="">
+            </a>
+            <a href="">
+                <img src="/assets/twitter-icon.png" alt="">
+            </a>
+            <a href="">
+                <img src="/assets/instagram-icon.png" alt="">
+            </a>
+            <a href="">
+                <img src="/assets/linkedin-icon.png" alt="">
+            </a>
+        </div>
+        <div class="pages social-icons display-flex-row">
+            <p>
+                © copyright 2020 Adidas
+            </p>
+        </div>
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="/node_modules/jquery/dist/jquery.js"></script>
+        <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="/bower_components/jquery/dist/jquery.js"></script>
+        <script src="/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+              $('.blog-card-holder').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 5
+                  }
+                }
+              });
+            });
+          </script> -->
+</body>
+</html>
