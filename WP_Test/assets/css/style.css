@@ -619,7 +619,7 @@ body {
   margin-top: 10px;
 }
 .gender label {
-  margin-left: 100px;
+
 }
 .contact-form-richtext {
   padding: 10px;
@@ -928,13 +928,10 @@ input[type="radio"] {
   height: 400px;
 }
 .slide-container {
-  height: 250px;
+  height: auto;
   width: 100%;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  padding: 20px 0px 20px 0px;
 }
 .block {
   height: 150px;
@@ -946,12 +943,23 @@ input[type="radio"] {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.slide-container img {
-  height: 200px;
-  width: 200px;
+.slider-card{
+ 
   margin-left: 10px;
-}
+  background-color: #08512d;
+  background-image: url("/assets/images/pattern-bg.png");
+ 
 
+  position: relative;
+}
+.slider-card img{
+  height: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .arrows {
   height: 10px;
 }
@@ -1014,6 +1022,10 @@ input[type="radio"] {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+}
+.gender{
+ 
+
 }
 
 /*Tablet*/
@@ -1338,7 +1350,7 @@ input[type="radio"] {
   }
   textarea {
     width: 300px;
-    margin-left: -10%;
+
   }
   .contact-form-lable {
     margin-top: 10px;
@@ -1358,7 +1370,7 @@ input[type="radio"] {
     font-size: 16px;
   }
   .gender {
-    display: none;
+  
   }
 
   .footer a {
@@ -1495,6 +1507,7 @@ input[type="radio"] {
   .reversed-div {
     flex-direction: column-reverse;
   }
+
 }
 .search-holder input[type="text"] {
   color: white;
@@ -1519,4 +1532,30 @@ select.classic {
 }
 .contact-input-box {
   appearance: none;
+}
+.contact-form {
+  width: auto;
+
+  padding: 20px 20px 20px 20px;
+
+}
+.name-email-holder{
+  width:auto;
+  padding: 0px 10px 0px 10px;
+
+}
+.contact-form-lable{
+  margin-left: 10px;
+}
+.gender{
+  width: 100%;
+}
+.radio-lable{
+  margin-right: 20px;
+}
+@media only screen and (min-width: 1020px) and (max-width: 1130px)  {
+ .blog-content{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
 }

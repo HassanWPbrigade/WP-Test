@@ -80,7 +80,25 @@
     float: left;
 
     height: 100%;
-    min-height: 1px;
+    min-height: 200px;
+
+}
+.slick-slide img
+{
+   
+
+
+}
+@media only screen and (max-width: 435px){
+    .slider-card{
+        height: 230px;
+        width: 90%;
+    
+      }
+      .slider-card img{
+       height: 95%;
+       width: 90%;
+      }
 }
 [dir='rtl'] .slick-slide
 {
