@@ -83,12 +83,7 @@
     min-height: 200px;
 
 }
-.slick-slide img
-{
-   
 
-
-}
 @media only screen and (max-width: 435px){
     .slider-card{
         height: 230px;
