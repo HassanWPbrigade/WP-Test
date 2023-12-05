@@ -95,6 +95,10 @@
        width: 90%;
       }
 }
+.slider-card img{
+    height: 95%;
+    width: 90%;
+   }
 [dir='rtl'] .slick-slide
 {
     float: right;

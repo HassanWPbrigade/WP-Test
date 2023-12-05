@@ -43,6 +43,11 @@
   background-image: url("/assets/images/hero-slider-leftt-arrow.png");
   background-repeat: no-repeat;
   background-position: center;
+
+}
+.slick-prev:hover,
+.slick-next:hover{
+  opacity: 0.7;
 }
 .slick-next {
   background-image: url("/assets/images/hero-slider-right-arrow.png");
